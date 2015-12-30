@@ -1,0 +1,2 @@
+class RcCarController < ApplicationController
+end
