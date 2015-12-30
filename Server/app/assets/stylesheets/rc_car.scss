@@ -11,9 +11,19 @@
 	background-color:#000000;
 }
 
+#button_camera_down {
+	width: 40%;
+	height:100px;
+	margin-right: 5px;
+}
+
+#button_camera_up {
+	width: 40%;
+	height:100px;
+}
+
 #controller {
-	margin-top:200px;
-	background-color:#9F81F7;
+	padding-top:200px;
 }
 
 #direction {
@@ -51,8 +61,7 @@
 }
 
 #toggler {
-	margin-top: 450px;
-	background-color:#F4FA58;
+	padding-top:200px;
 }
 
 #microphone {
