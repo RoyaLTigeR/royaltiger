@@ -1,17 +1,25 @@
-<h1>RC CAR</h1>
+<div id="body">
 
-<div id="screen"></div>
+	<h1>RC CAR</h1>
 
-<div id="controller">
-	<div id="direction">
-		<button id="button_left" type="button">Left</button>
-		<button id="button_right" type="button">Right</button>
+	<div id="screen"></div>
+
+	<div id="controller">
+		<div id="direction">
+			<button id="button_left" type="button">Left</button>
+			<button id="button_right" type="button">Right</button>
+		</div>
+
+		<div id="throttle">
+			<button id="button_reverse" type="button">Reverse</button>
+			<button id="button_accelerate" type="button">Accelerate</button>
+		</div>
 	</div>
 
-	<div id="throttle">
-		<button id="button_reverse" type="button">Reverse</button>
-		<button id="button_accelerate" type="button">Accelerate</button>
+	<div id="toggler">
+		<!-- <button id="microphone" type="button">Microphone</button> -->
+		<input id="microphone" type="checkbox" name="toggle" value="microphone">Microphone<br>
+		<input id="lights" type="checkbox" name="toggle" value="lights">Lights<br>
 	</div>
+
 </div>
-
-<button id="microphone" type="button">Microphone</button>
