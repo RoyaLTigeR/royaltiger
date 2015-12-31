@@ -7,26 +7,25 @@
 	<div id="screen"></div>
 
 	<div id="camera_control">
-			<button id="button_camera_down" type="button">Camera Down</button>
-			<button id="button_camera_up" type="button">Camera Up</button>
+			<button id="button_camera_down" type="button" onclick="camera_down(this)">Camera Down</button>
+			<button id="button_camera_up" type="button" onclick="camera_up(this)">Camera Up</button>
 	</div>
 
 	<div id="controller">
 		<div id="direction">
-			<button id="button_left" type="button">Left</button>
-			<button id="button_right" type="button">Right</button>
+			<button id="button_left" type="button" onclick="left(this)">Left</button>
+			<button id="button_right" type="button" onclick="right(this)">Right</button>
 		</div>
 
 		<div id="throttle">
-			<button id="button_reverse" type="button">Reverse</button>
-			<button id="button_accelerate" type="button">Accelerate</button>
+			<button id="button_reverse" type="button" onclick="reverse(this)">Reverse</button>
+			<button id="button_accelerate" type="button" onclick="accelerate(this)">Accelerate</button>
 		</div>
 	</div>
 
 	<div id="toggler">
-		<!-- <button id="microphone" type="button">Microphone</button> -->
-		<input id="microphone" type="checkbox" name="toggle" value="microphone">Microphone<br>
-		<input id="lights" type="checkbox" name="toggle" value="lights">Lights<br>
+		<input id="microphone" type="checkbox" name="toggle" value="microphone" onclick="microphone(this)">Microphone<br>
+		<input id="lights" type="checkbox" name="toggle" value="lights" onclick="lights(this)">Lights<br>
 	</div>
 
 </div>
