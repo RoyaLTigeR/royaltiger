@@ -1,3 +1,10 @@
+// video_play($("#screen"))
+
+function video_play(video) {
+	// alert("video")
+	video.play();
+}
+
 function camera_down(camera_down) {
 
 }
