@@ -1,7 +1,6 @@
 // video_play($("#screen"))
 
 function video_play(video) {
-	// alert("video")
 	video.play();
 }
 
