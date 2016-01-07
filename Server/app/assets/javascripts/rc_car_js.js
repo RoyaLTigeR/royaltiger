@@ -1,5 +1,7 @@
 // video_play($("#screen"))
 
+//alert("background color = " + $('#button_reverse').css("background-color"));
+
 function video_play(video) {
 	video.play();
 }
