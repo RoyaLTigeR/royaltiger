@@ -5,71 +5,13 @@
 	text-align: center;
 }
 
-#screen {
+/*#screen {
 	width:100%;
-	height:600px;
+	height:1080px;
 	background-color:#000000;
-}
+}*/
 
-#button_camera_down {
-	width: 40%;
-	height:100px;
-	margin-right: 5px;
-}
-
-#button_camera_up {
-	width: 40%;
-	height:100px;
-}
-
-#controller {
-	padding-top:200px;
-}
-
-#direction {
-	float:left;
-	width: 50%;
-}
-
-#button_left {
-	width: 40%;
-	height:100px;
-	margin-right: 5px;
-}
-
-#button_right {
-	width: 40%;
-	height:100px;
-}
-
-#throttle {
-	float:right;
-	width: 50%;
-}
-
-#button_reverse {
-	width: 40%;
-	height:100px;
-	margin-right: 5px;
-	background-color:#FF0000;
-}
-
-#button_accelerate {
-	width: 40%;
-	height:100px;
-	background-color:#01DF01;
-}
-
-#toggler {
-	padding-top:200px;
-}
-
-#microphone {
-	width:50px;
-	height:50px;
-}
-
-#lights {
-	width:50px;
-	height:50px;
+#controls {
+	width:100%;
+	height:700px;
 }
