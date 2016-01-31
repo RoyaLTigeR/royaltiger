@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'door_bell/index'
+
+  get 'lights/index'
+
+  get 'drone/index'
+
+  get 'garage_door/index'
+
+  get 'gate_door/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -8,6 +18,11 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   get 'rc_car/index'
+  get 'drone/index'
+  get 'garage_door/index'
+  get 'gate_door/index'
+  get 'door_bell/index'
+  get 'lights/index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
