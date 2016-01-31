@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>WebIOPi | Light Control</title>
+        <script type="text/javascript" src="/webiopi.js"></script>
+        <script type="text/javascript" src="rc_car.js"></script>
+	<link rel="stylesheet" type="text/css" href="rc_car.css">
+</head>
+
+<body>
+	<div id="camera_control">
+			<button id="button_camera_down" type="button" onclick="camera_down(this)">Camera Down</button>
+			<button id="button_camera_up" type="button" onclick="camera_up(this)">Camera Up</button>
+	</div>
+
+	<div id="controller">
+		<div>
+			<button id="top_left" type="button" onclick="top_left(this)">&#8598;</button>
+			<button id="top_middle" type="button" onclick="top_middle(this)">&#8593;</button>
+			<button id="top_right" type="button" onclick="top_right(this)">&#8599;</button>
+		</div>
+
+		<div>
+			<button id="middle_left" type="button" onclick="middle_left(this)">&#8592;</button>
+			<button id="middle_middle" type="button" onclick="middle_middle(this)">STOP</button>
+			<button id="middle_right" type="button" onclick="middle_right(this)">&#8594;</button>
+		</div>
+
+		<div>
+			<button id="bottom_left" type="button" onclick="bottom_left(this)">&#8601;</button>
+			<button id="bottom_middle" type="button" onclick="bottom_middle(this)">&#8595;</button>
+			<button id="bottom_right" type="button" onclick="bottom_right(this)">&#8600;</button>
+		</div>
+	</div>
+
+	<div id="toggler">
+		<input id="microphone" type="checkbox" name="toggle" value="microphone" onclick="microphone(this)">Microphone<br>
+		<input id="lights" type="checkbox" name="toggle" value="lights" onclick="lights(this)">Lights<br>
+	</div>
+</body>
+</html>
+

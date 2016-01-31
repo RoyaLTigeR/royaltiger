@@ -1,0 +1,87 @@
+body {
+	text-align: center;
+}
+
+#button_camera_down {
+	width: 40%;
+	height:100px;
+	margin-right: 5px;
+}
+
+#button_camera_up {
+	width: 40%;
+	height:100px;
+}
+
+#controller {
+	padding-top:100px;
+}
+
+#top_left {
+	width: 30%;
+	height: 100px;
+	color: black;
+}
+
+#top_middle {
+	width: 30%;
+	height: 100px;
+	color: black;
+}
+
+#top_right {
+	width: 30%;
+	height: 100px;
+	color: black;
+}
+
+#middle_left {
+	width: 30%;
+	height: 100px;
+	color: black;
+}
+
+#middle_middle {
+	width: 30%;
+	height: 100px;
+	color: black;
+	background-color: red;
+}
+
+#middle_right {
+	width: 30%;
+	height: 100px;
+	color: black;
+}
+
+#bottom_left {
+	width: 30%;
+	height: 100px;
+	color: black;
+}
+
+#bottom_middle {
+	width: 30%;
+	height: 100px;
+	color: black;
+}
+
+#bottom_right {
+	width: 30%;
+	height: 100px;
+	color: black;
+}
+
+#toggler {
+	padding-top:200px;
+}
+
+#microphone {
+	width:50px;
+	height:50px;
+}
+
+#lights {
+	width:50px;
+	height:50px;
+}
