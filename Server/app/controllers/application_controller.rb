@@ -4,7 +4,8 @@ class ApplicationController < ActionController::Base
 	USERS = { 
 		'tiger' => '1337', 
 		'emma' => '3895' ,
-		'amy' => 'liu'
+		'amy' => 'liu' ,
+		'wen' => 'li' ,
 	}
 
  	before_filter :authenticate
@@ -12,8 +13,7 @@ class ApplicationController < ActionController::Base
 	protected
 	def authenticate
 		authenticate_or_request_with_http_basic do |username, password|
-			return true if username == "tiger" && password == "1337"
-			return true if username == "emma" && password == "3895"
+			return true if USERS.has_key?(username) && USERS[username] == password
 		end
 	end
 end
