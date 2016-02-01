@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'garage_gate_doors/index'
+
   get 'door_bell/index'
 
   get 'lights/index'
@@ -19,6 +21,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   get 'rc_car/index'
   get 'drone/index'
+  get 'garage_gate_doors/index'
   get 'garage_door/index'
   get 'gate_door/index'
   get 'door_bell/index'
