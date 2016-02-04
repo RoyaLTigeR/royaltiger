@@ -1,4 +1,5 @@
 import webiopi
+import os
 
 GPIO = webiopi.GPIO
 
@@ -93,3 +94,7 @@ def getLights():
 	if (GPIO.digitalRead(PIN_LIGHT) == GPIO.LOW):
 		return false
 	return true
+
+@webiopi.macro
+def restart_pi():
+	os.system("sudo reboot")

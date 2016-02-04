@@ -15,19 +15,19 @@
 	</div>
 
 	<div id="controller">
-		<div>
+		<div id="row">
 			<button id="top_left" type="button" onclick="top_left(this)">&#8598;</button>
 			<button id="top_middle" type="button" onclick="top_middle(this)">&#8593;</button>
 			<button id="top_right" type="button" onclick="top_right(this)">&#8599;</button>
 		</div>
 
-		<div>
+		<div id="row">
 			<button id="middle_left" type="button" onclick="middle_left(this)">&#8592;</button>
 			<button id="middle_middle" type="button" onclick="middle_middle(this)">STOP</button>
 			<button id="middle_right" type="button" onclick="middle_right(this)">&#8594;</button>
 		</div>
 
-		<div>
+		<div id="row">
 			<button id="bottom_left" type="button" onclick="bottom_left(this)">&#8601;</button>
 			<button id="bottom_middle" type="button" onclick="bottom_middle(this)">&#8595;</button>
 			<button id="bottom_right" type="button" onclick="bottom_right(this)">&#8600;</button>
@@ -38,6 +38,8 @@
 		<input id="microphone" type="checkbox" name="toggle" value="microphone" onclick="microphone(this)">Microphone<br>
 		<input id="lights" type="checkbox" name="toggle" value="lights" onclick="lights(this)">Lights<br>
 	</div>
+
+	<button id="restart_pi" type="button" onclick="restart_pi(this)">Restart Pi</button>
 </body>
 </html>
 

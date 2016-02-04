@@ -49,3 +49,7 @@ function lights(lights) {
 		webiopi().callMacro("lightsOff");
 	}
 }
+
+function restart_pi(button) {
+	webiopi().callMacro("restart_pi");
+}

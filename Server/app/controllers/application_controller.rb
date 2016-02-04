@@ -5,7 +5,6 @@ class ApplicationController < ActionController::Base
 		'tiger' => '1337', 
 		'emma' => '3895' ,
 		'amy' => 'liu' ,
-		'wen' => 'li' ,
 	}
 
  	before_filter :authenticate
