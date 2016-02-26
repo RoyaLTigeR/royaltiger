@@ -4,14 +4,14 @@
 
 	<h1>Garage & Gate</h1>
 		
-	<iframe id="garage_camera" src="http://71.160.205.74:8082/stream?width=960&height=540"></iframe>
+	<iframe id="garage_camera" src="http://<%= $global_ip %>:8082/stream?width=960&height=540"></iframe>
 
 	<div>
-		<iframe id="garage_controll" src="http://71.160.205.74:8002"></iframe>
-		<iframe id="gate_controll" src="http://71.160.205.74:8001"></iframe>
+		<iframe id="garage_controll" src="http://<%= $global_ip %>:8002"></iframe>
+		<iframe id="gate_controll" src="http://<%= $global_ip %>:8001"></iframe>
 	</div>
 
 
-	<iframe id="gate_camera" src="http://71.160.205.74:8081/stream?width=960&height=540"></iframe>
+	<iframe id="gate_camera" src="http://<%= $global_ip %>:8081/stream?width=960&height=540"></iframe>
 
 </div>

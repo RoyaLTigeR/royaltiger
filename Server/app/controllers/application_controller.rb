@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::Base
+	$global_ip = '173.58.125.83'
+
 	# Prevent CSRF attacks by raising an exception.
 	# For APIs, you may want to use :null_session instead.
 	USERS = { 
